@@ -1,0 +1,23 @@
+{
+  "private": true,
+  "author": "wangyang <1749748955@qq.com>",
+  "homepage": ".",
+  "scripts": {
+    "dev": "umi dev",
+    "build": "umi build",
+    "postinstall": "umi setup",
+    "setup": "umi setup",
+    "start": "npm run dev"
+  },
+  "dependencies": {
+    "antd-mobile": "^5.34.0",
+    "antd-mobile-icons": "^0.3.0",
+    "react-router-dom": "^6.22.3",
+    "umi": "^4.1.2"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.66",
+    "@types/react-dom": "^18.2.22",
+    "typescript": "^5.4.2"
+  }
+}
