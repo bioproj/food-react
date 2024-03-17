@@ -1,22 +1,24 @@
 import { Link, Outlet } from 'umi';
 
 import styles from './index.less';
+import Bottom from '@/components/NavBottom';
+
 
 
 
 export default function Layout() {
   return (
     <div className={styles.app}>
-      {/* <div className={styles.body}>
-        
-      </div> */}
-      <Outlet />
-      {/* <div style={{marginBottom:"3rem"}}>
-        
+      <div className={styles.body}>
+        <Outlet />
+      </div>
+
+      <div style={{ marginBottom: "3rem" }}>
+
       </div>
       <div className={styles.bottom}>
         <Bottom />
-      </div> */}
+      </div>
     </div>
 
 

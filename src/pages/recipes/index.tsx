@@ -109,12 +109,12 @@ export default function Page() {
         {/* <img src={yayJpg} width="388" /> */}
       </div>
 
-      <div style={{ marginBottom: "3rem" }}>
+      {/* <div style={{ marginBottom: "3rem" }}>
 
       </div>
       <div className={styles.bottom}>
         <Bottom />
-      </div>
+      </div> */}
     </div>
   );
 }

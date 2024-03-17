@@ -13,12 +13,12 @@ export default function Page() {
       <div className={styles.content}>
         1111111
       </div>
-      <div style={{ marginBottom: "3rem" }}>
+      {/* <div style={{ marginBottom: "3rem" }}>
 
       </div>
       <div className={styles.bottom}>
         <Bottom />
-      </div>
+      </div> */}
     </div>
   );
 }
