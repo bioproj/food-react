@@ -27,7 +27,7 @@ export default function Layout() {
         <Outlet />
       </div>
 
-      <div style={{ marginBottom: "3rem" }}/>
+      <div style={{ marginBottom: "3rem" }}></div>
       {showBottom() && <NavBottom/>}
       
     </div>
