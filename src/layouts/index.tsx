@@ -64,7 +64,9 @@ export default function Layout() {
       <div className={styles.body}>
         <Outlet />
       </div>
-      
+      <div style={{marginBottom:"3rem"}}>
+        
+      </div>
       <div className={styles.bottom}>
         <Bottom />
       </div>
