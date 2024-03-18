@@ -10,6 +10,8 @@ export default defineConfig({
   ],
   publicPath: process.env.NODE_ENV === 'development' ? '/' : './',
   history: { type: 'hash' },
-
+  targets: { chrome: 67 },
+  jsMinifier: 'terser',
+  cssMinifier: 'cssnano',
   npmClient: 'pnpm',
 });
