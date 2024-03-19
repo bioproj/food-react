@@ -28,3 +28,9 @@
   
   background:  #f3f4f6;
 }
+.footer {
+  padding-top: 11px;
+  border-top: 1px solid #e5e5e5;
+  display: flex;
+  justify-content: flex-end;
+}
